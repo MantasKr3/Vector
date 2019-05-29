@@ -34,7 +34,7 @@ void pop_back()
 ```
 ## Testai
 
-## <int>
+## int
 
 ### 10000
 ```shell
@@ -68,7 +68,7 @@ void pop_back()
 100000000  Vektoriuksio <int> push_back'ų užtruko: 0.9588834 s
 
 ```
-## <Studentas>
+## Studentas
 
 ```shell
 10000 std::vector <studentas> push_back'ų užtruko: 0.0024428 s
@@ -96,5 +96,5 @@ void pop_back()
 ```
 ### Perskirstymai
 
--std::vector - 28
--Vektoriuksio - 23
+- std::vector - 28
+- Vektoriuksio - 23
