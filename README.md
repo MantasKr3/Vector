@@ -147,7 +147,7 @@ bool empty()
 - std::vector - 28
 - Vektoriuksio - 23
 
-## Išvada - su `<int>` tipo elementais `Vector` veikia sparčiau, nei `std::vector`. O su `<Studentas>` tipo kintamaisiai,su mažu kiekiu studento tipo objektų, `std::vector` veikia greičiau nei `Vector`, su dideliu kiekiu grečiau veikia `Vector'.
+## Išvada - su `<int>` tipo elementais `Vector` veikia sparčiau, nei `std::vector`. O su `<Studentas>` tipo kintamaisiai,su mažu kiekiu studento tipo objektų, `std::vector` veikia greičiau nei `Vector`, su dideliu kiekiu grečiau veikia `Vector` .
 
 # Bandymas su 3 užd
 
