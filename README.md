@@ -48,6 +48,38 @@ void pop_back()
         vsize_++;
     }
 ```
+```c++
+ void erase(size_t val) {
+        if (val < 0 || val >= vsize_)
+            return;
+        vsize_--;
+        std::move(&arr_[val + 1], &arr_[vsize_], &arr_[val]);
+    }
+```
+```c++
+ void clear()
+    {
+        vsize_ = 0;
+        delete[] arr_;
+        arr_ = new T[cap_];
+    }
+ ```   
+```c++
+size_t size() const { return vsize_; }
+```
+```c++
+size_t capacity() const { return cap_; }
+```
+```c++
+bool empty()
+    {
+        if (vsize_ == 0)
+            return true;
+        else
+            return false;
+    }
+```
+
 ## Testai
 
 ## int
