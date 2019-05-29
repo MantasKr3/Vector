@@ -1,5 +1,21 @@
 # Vector - Mantas Kraujelis
 
+## Programos paleidimas
+
+### Testas
+- `git clone https://github.com/MantasKr3/Vector`
+- `cd Vector` 
+- `g++  main.cpp -o main` 
+- `./main`
+
+### 3užd
+- `git clonehttps://github.com/MantasKr3/Vector`
+- `cd Vector`
+- `cd Vektoriukstis`
+- `make`
+- `./main`
+
+
 ## Funkcionalumas
 ```c++
 void assign(size_t val, T data) {
