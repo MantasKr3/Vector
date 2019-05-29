@@ -147,10 +147,12 @@ bool empty()
 - std::vector - 28
 - Vektoriuksio - 23
 
+## Išvada - su `<int>` tipo elementais `Vector` veikia sparčiau, nei `std::vector`. O su `<Studentas>` tipo kintamaisiai,su mažu kiekiu studento tipo objektų, `std::vector` veikia greičiau nei `Vector`, su dideliu kiekiu grečiau veikia `Vector'.
+
 # Bandymas su 3 užd
 
 
-## Vector (vektoriukštis)
+## `Vector` (vektoriukštis)
 
 ```shell
 100000 studentu GENERAVIMAS uztruko: 0.2256529 s
@@ -158,11 +160,11 @@ bool empty()
 100000 studentu RUSIAVIMAS IR SPAUSDINIMAS uztruko: 0.4791077 s
 
 ```
-## std::vector
+## `std::vector`
 
 ```shell
 100000 studentu GENERAVIMAS uztruko: 0.1820543 s
 100000 studentu NUSKAITYMAS uztruko: 0.2284102 s
 100000 studentu RUSIAVIMAS IR SPAUSDINIMAS uztruko: 0.2386965 s
 ```
-## Išvada su Vector (vektoriuksiu) programa veikia ~40% lėčiau,nei su std::vector.
+## Išvada su `Vector` (vektoriukšiu) programa veikia ~40% lėčiau,nei su `std::vector`.
