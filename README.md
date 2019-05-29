@@ -8,7 +8,7 @@
 - `g++  main.cpp -o main` 
 - `./main`
 
-### 3užd
+### Vector bandymas su 3užd
 - `git clonehttps://github.com/MantasKr3/Vector`
 - `cd Vector`
 - `cd Vektoriukstis`
