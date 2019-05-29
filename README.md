@@ -99,7 +99,7 @@ void pop_back()
 - std::vector - 28
 - Vektoriuksio - 23
 
-# Bandymas su 3 uždŽ 
+# Bandymas su 3 užd
 
 ## Vector (vektoriukštis)
 
